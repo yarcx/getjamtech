@@ -1,0 +1,63 @@
+.mainContent{
+    width: 100%;
+}
+
+.inputWrapper{
+    background: #fff;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+    transition: ease-in 100ms box-shadow;
+}
+
+.inputWrapper:hover{
+    box-shadow: rgba(32,33,36,0.28)0px 1px 6px 0px;
+}
+
+.inputWrapper_speakerIcon{
+    height: 24px;
+    width: 24px;
+    vertical-align: middle;
+}
+.inputWrapper_searchIcon{
+    color: #9aa0a6 !important;
+    height: 24px;
+    width: 24px;
+    vertical-align: middle;
+}
+.inputWrapper_closeIcon{
+    color: #9aa0a6 !important;
+    height: 24px;
+    width: 24px;
+    vertical-align: middle;
+}
+
+.inputWrapper_input{
+    border: none;
+    margin: 0;
+    width: 100%;
+    padding: 0;
+    color: rgba(0,0,0,.87);
+    word-wrap: break-word;
+    outline: none;
+    height: 100%;
+    font-size: 16px;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.inputWrapper_buttons{
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-size: 14px;
+    transition: box-shadow ease-in-out 100ms;
+    box-sizing: border-box;
+}
+
+.inputWrapper_buttons:hover{
+    box-shadow: 2px 1px 1px 1px rgba(0,0,0,0.1);
+}
+
+.mainContentLinks{
+    color: #1a0dab;
+}
