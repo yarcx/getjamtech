@@ -77,7 +77,7 @@ const MainContent: NextPage = () => {
             </form>
             <div className="items-center justify-center hidden w-5/12 h-16 mx-auto md:flex">
                 <button onClick={handleSubmittedSearch} className={`${styles.inputWrapper_buttons} hover:shadow hover:border-gray-300 flex items-center justify-center px-3 py-4 mx-2 my-1  h-11`}>Google Search</button>
-                <button onClick={gotoPerfectEngineers} className={`${styles.inputWrapper_buttons} hover:shadow hover:border-gray-300 flex items-center justify-center px-3 py-4 mx-2 my-1  h-11`}> I'm Feeling Lucky</button>
+                <button onClick={gotoPerfectEngineers} className={`${styles.inputWrapper_buttons} hover:shadow hover:border-gray-300 flex items-center justify-center px-3 py-4 mx-2 my-1  h-11`}>I m Feeling Lucky</button>
             </div>
 
             <div className="flex flex-col items-center justify-center mx-auto mt-8 text-sm text-center md:mt-2 md:w-2/6 md:flex-row h-11">
